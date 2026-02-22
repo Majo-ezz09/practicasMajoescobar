@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Página de reserva de viajes</h2>
+    <form>
+        <fieldset>
+
+            <label>"Nombre:</label><br>
+            <input type="text" name="nombre" required><br><br>
+
+            <label>Apellido:</label><br>
+            <input type="text" name="Apellido" required><br><br>
+
+
+            <label>=Correo electrónico:</label><br>
+            <input type="email" name="Correo" placeholder="Majo@email.com" required><br><br>
+
+            <label>=Telefono:</label>
+            <input type="tel" name=" Número de Telefono" required> <br><br>
+
+            <label>="Número de acompanantes:</label>
+            <input type="number" name="acompanantes" min="1" max="5" step="1" required><br><br>
+
+            
+        </fieldset>
+        <br>
+        
+        <fieldset>
+            <legend>Datos del viaje</legend>
+
+            <label>=Lugar de origen:</label><br>
+            <input type="text" name="origen" value="San Salvador" readonly><br><br>
+            
+            <label>=Lugar de destino:</label><br>
+            <select name="destino" required>
+                <option value="Lauterbrunnen">Lauterbrunnen></option>
+                <option value="Florencia"> Florencia></option>
+                <option value="Barcelona"> Barcelona></option>
+                <option value="Venecia"> Venecia</option>
+            </select><br><br>
+
+            <label>=Fecha de salida:</label><br>
+            <input type="date" name="salida" required><br><br>
+
+            <label>="Fecha de regreso</label><br>
+            <input type="date" name="regreso" required> <br><br>
+        </fieldset>
+        <br>
+
+        <input type="submit" value="Reservar">
+    </form>
+</body>
+</html>
