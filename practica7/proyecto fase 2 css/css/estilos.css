@@ -1,0 +1,149 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Quicksand&display=swap');
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY CON FONDO BONITO */
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp2757874.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background-color: rgba(255, 204, 0, 0.9);
+    padding:10px;
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* TITULO */
+.titulo{
+    font-family:'Fredoka', cursive;
+}
+
+/* MENU */
+.menu{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+/* LINKS */
+.link{
+    text-decoration:none;
+    color:black;
+    padding:8px;
+    border-radius:5px;
+}
+
+.link:hover{
+    background-color:white;
+}
+
+/* MAIN */
+main{
+    max-width:900px;
+    margin:auto;
+}
+
+/* SECCIONES */
+section{
+    margin:30px 0;
+    padding:20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius:10px;
+}
+
+/* TITULOS */
+#s1,#s2,#s3,#s4,#s5{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+/* IMAGEN FLOAT */
+.imgpeq{
+    float:right;
+    width:200px;
+    margin:15px;
+}
+
+/* LISTAS */
+ul,ol{
+    margin-left:20px;
+}
+
+/* TABLA */
+.ficha table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.ficha th,.ficha td{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+.ficha th{
+    background-color:#ffcc00;
+}
+
+/* FORMULARIO */
+form{
+    width:50%;
+    margin:auto;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+input[type="submit"]{
+    background:#ffcc00;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#ffaa00;
+}
+
+/* GALERIA */
+.contenedor-galeria{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+.galeria img{
+    width:30%;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.1);
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+    color:white;
+}
