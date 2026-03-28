@@ -1,0 +1,151 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ font-family:'Sour Gummy', sans-serif;
+ background-image:url("img/fondo.jpeg"); /* CAMBIA SI TU NOMBRE ES OTRO */
+ background-size:cover;
+ background-position:center;
+ background-attachment:fixed;
+ color:#333;
+}
+
+header{
+ background:linear-gradient(90deg,#ffb347,#ffcc33);
+ padding:15px;
+ position:sticky;
+ top:0;
+ z-index:1000;
+
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+.titulo{
+ font-family:'DynaPuff', cursive;
+ font-size:30px;
+ color:#222;
+}
+
+.menu{
+ display:flex;
+ list-style:none;
+ gap:20px;
+}
+
+.link{
+ text-decoration:none;
+ color:black;
+ padding:6px 12px;
+ border-radius:10px;
+ font-family:'DynaPuff', cursive;
+ transition:0.3s;
+}
+
+.link:hover{
+ background-color:white;
+ color:#ff9900;
+}
+
+main{
+ max-width:900px;
+ margin:auto;
+}
+
+section{
+ margin:40px 0;
+ padding:25px;
+ background-color:rgba(255,255,255,0.92);
+ border-radius:20px;
+ box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2{
+ text-align:center;
+ color:#ff9900;
+ margin-bottom:15px;
+ font-family:'DynaPuff', cursive;
+}
+
+.imgpeq{
+ float:right;
+ width:200px;
+ margin:10px;
+ border-radius:10px;
+}
+
+/* LISTAS */
+ul,ol{
+ margin-left:20px;
+}
+
+.ficha table{
+ width:100%;
+ border-collapse:collapse;
+ margin-top:10px;
+}
+
+.ficha th, .ficha td{
+ border:2px solid #ff9900;
+ padding:10px;
+ text-align:center;
+}
+
+.ficha th{
+ background-color:#ffd966;
+ font-family:'DynaPuff', cursive;
+}
+
+.centrado{
+ text-align:center;
+}
+
+form{
+ width:60%;
+ margin:auto;
+}
+
+input{
+ width:100%;
+ padding:10px;
+ margin-top:10px;
+ border-radius:8px;
+ border:1px solid #ccc;
+}
+
+input[type="submit"]{
+ background-color:#ff9900;
+ color:white;
+ border:none;
+ font-family:'DynaPuff', cursive;
+ cursor:pointer;
+}
+
+input[type="submit"]:hover{
+ background-color:#cc7a00;
+}
+
+.contenedor-galeria{
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ gap:15px;
+}
+
+.contenedor-galeria img{
+ width:30%;
+ border-radius:15px;
+ background-color:transparent;
+}
+
+footer{
+ text-align:center;
+ padding:20px;
+ background-color:#333;
+ color:white;
+ margin-top:40px;
+}
