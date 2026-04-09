@@ -149,3 +149,8 @@ footer{
  color:white;
  margin-top:40px;
 }
+
+
+.galeria img:hover{
+    transform: scale(1.0);
+}
