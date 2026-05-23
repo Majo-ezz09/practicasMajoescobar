@@ -57,49 +57,63 @@ y colores de énfasis suaves.
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<div>
 
-<div>
+<div class="container mt-5 border p-4 rounded shadow">
 
-<h1>Estado del Servidor</h1>
+<h1 class="fw-bold">
+Estado del Servidor
+</h1>
 
-<p>Panel de control de servicios activos.</p>
+<p class="text-muted">
+Panel de control de servicios activos.
+</p>
 
 <hr>
 
-<div>
+<div class="alert alert-danger" role="alert">
 
-<span>Error Crítico:</span>
+<span class="fw-bold">
+ERROR CRÍTICO:
+</span>
 
 La base de datos no responde.
 
 </div>
 
-<div>
+<div class="alert alert-warning" role="alert">
 
-<span>Aviso:</span>
+<span class="fw-bold">
+Aviso:
+</span>
 
-El espacio en disco está al <span>90% de su capacidad</span>.
+El espacio en disco está al
 
-</div>
-
-<div>
-
-<span>Sistema: </span>
-
-Todos los demás servicios están <span>operativos</span>.
+<span class="text-decoration-underline">
+90% de su capacidad.
+</span>
 
 </div>
 
-<p>
+<div class="alert alert-primary" role="alert">
 
-Última actualización: <span>Hace 5 minutos</span>
+<span class="fw-bold">
+Sistema:
+</span>
 
+Todos los demás servicios están
+
+<span class="text-uppercase">
+operativos.
+</span>
+
+</div>
+
+<p class="text-center text-muted small">
+Última actualización: hace 5 minutos
 </p>
 
 </div>
 
-</div>
 
 </body>
 </html>
